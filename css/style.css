@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   color: #ffff;
   font-family: Montserrat, sans-serif;
-  background-image: linear-gradient(to bottom right, #5781b9 0% 65%, #255790 95% 100%);
+  background-image: linear-gradient(to bottom right, #4b7fbe 0% 65%, #4b7fbe 95% 100%);
   background-position: center;
   background-attachment: fixed;
   margin: 0;
@@ -13,7 +13,7 @@ body {
   box-sizing: border-box;
 }
 .card {
-  background-color: #3c3c3c;
+  background-color: #292929;
   max-width: 600px; /*360px*/
   display: flex;
   flex-direction: column;
@@ -22,7 +22,7 @@ body {
   box-shadow: 0px 1rem 1.5rem rgba(0,0,0,0.5);
 }
 .card .banner {
-  background-image: url("img/background.png");
+  background-image: url("../img/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -55,34 +55,7 @@ body {
   position: relative;
   box-sizing: border-box;
 }
-.card .menu .opener {
-  width: 2.5rem;
-  height: 2.5rem;
-  position: relative;
-  border-radius: 50%;
-  transition: background-color 100ms ease-in-out;
-}
-.card .menu .opener:hover {
-  background-color: #f2f2f2;
-}
-.card .menu .opener span {
-  background-color: #ffffff;
-  width: 0.4rem;
-  height: 0.4rem;
-  position: absolute;
-  top: 0;
-  left: calc(50% - 0.2rem);
-  border-radius: 50%;
-}
-.card .menu .opener span:nth-child(1) {
-  top: 0.45rem;
-}
-.card .menu .opener span:nth-child(2) {
-  top: 1.05rem;
-}
-.card .menu .opener span:nth-child(3) {
-  top: 1.65rem;
-}
+
 .card h1.name {
   text-align: center;
   padding: 0 2rem 0.5rem;
